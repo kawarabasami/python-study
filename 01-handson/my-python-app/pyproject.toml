@@ -15,3 +15,9 @@ dependencies = [
     "typer>=0.24.1",
     "uvicorn>=0.44.0",
 ]
+
+[tool.ruff]
+line-length = 88 # PrettierのprintWidth相当
+
+[tool.ruff.lint]
+select = ["E", "F", "I"] # 基本的なエラーと、I(isort: import順序の自動整理)を有効化
