@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+htmlcov/
+.coverage
+.tox/
+.cache/
+.pytest_cache/
+
+# Database
+*.sqlite3
+*.db
+
+# Alembic migration logs
+alembic/versions/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# mypy, ruff, black, etc.
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
